@@ -20,10 +20,10 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           #options
-          user: mpslanker
+          user: mcharo
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: US/Denver
+          config_timezone: US/Chicago
           plugin_habits: yes
           plugin_habits_charts: yes
           plugin_habits_charts_type: classic
